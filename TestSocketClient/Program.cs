@@ -29,7 +29,7 @@ namespace ConsoleApp4
 
 			string messageText = $"New Message sent at {DateTime.Now.ToLongTimeString()}";
 
-			IPAddress oIpAddress = IPAddress.Parse("192.168.1.242");
+			IPAddress oIpAddress = IPAddress.Parse("xxx.xxx.xxx.xxx"); //Just be the IP of the Server
 
             IPEndPoint oRemoteEndPoint = new(oIpAddress, 5020);
 
