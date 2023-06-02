@@ -9,3 +9,6 @@
 /TestSocketServer/bin
 /TestSocketServer/obj
 /TestSocketServer/Properties/PublishProfiles
+/TestSocketClient/bin
+/TestSocketClient/obj
+/TestSocketClient/Properties/PublishProfiles
