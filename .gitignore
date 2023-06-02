@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ConsoleApp4/bin
+/ConsoleApp4/obj
+/ConsoleApp4/Properties/PublishProfiles
+/TestSocketServer/bin
+/TestSocketServer/obj
+/TestSocketServer/Properties/PublishProfiles
