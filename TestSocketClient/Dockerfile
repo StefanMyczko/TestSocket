@@ -5,10 +5,10 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0-jammy  AS build
 WORKDIR /src
-COPY ["ConsoleApp4/TestSocketClient.csproj", "ConsoleApp4/"]
-RUN dotnet restore "ConsoleApp4/TestSocketClient.csproj"
+COPY ["TestSocketClient/TestSocketClient.csproj", "TestSocketClient/"]
+RUN dotnet restore "TestSocketClient/TestSocketClient.csproj"
 COPY . .
-WORKDIR "/src/ConsoleApp4"
+WORKDIR "/src/TestSocketClient"
 RUN dotnet build "TestSocketClient.csproj" -c Release -o /app/build
 
 FROM build AS publish
